@@ -1,6 +1,8 @@
 
 # Usage
-`<ebay-icon type='background | inline' icon='`icon-groupname-iconname` | icon-arrow-down | icon-chevron-up | icon-form-radio | icon-navigation-menu'>`
+```
+<ebay-icon type='background | inline' icon='`icon-groupname-iconname` | icon-arrow-down | icon-chevron-up | icon-form-radio | icon-navigation-menu'>
+```
 
 ##  Output:
 
@@ -19,10 +21,12 @@
 ```
 ## Bring svg source into page. Any page want inline svg should invoke `<ebay-icon-svg-source>` with group of icons like below,
 
-`<ebay-icon-svg-source>
+```
+<ebay-icon-svg-source>
     <ebay-icon-option>`icon-arrow-down`</ebay-icon-option>
     <ebay-icon-option>`icon-navigation-menu`</ebay-icon-option>
-</ebay-icon-svg-source>`
+</ebay-icon-svg-source>
+```
 
 ##  Output:
 ```
