@@ -54,8 +54,9 @@
 }
 ```
 ## Open questions:
-1.How does application team know what are all icons already exist in the page so that they could load only if its not there?. suggestion?. - `ebay-icon` should be able to bundle only if its not availble as part of whole bundle of resources?
-2.How can individual skin icons be accessed?
+1. How does application team know what are all icons already exist in the page so that they could load only if its not there?. suggestion?. - `ebay-icon` should be able to bundle only if its not availble as part of whole bundle of resources?
+
+2. How can individual skin icons be accessed?
 
 
 
