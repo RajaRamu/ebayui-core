@@ -1,7 +1,7 @@
 
 # Usage
 ```
-<ebay-icon type='background | inline' icon='`icon-groupname-iconname` | icon-arrow-down | icon-chevron-up | icon-form-radio | icon-navigation-menu'>
+<ebay-icon type='background | inline' icon='`icon-arrow-down | icon-chevron-up | icon-form-radio | icon-navigation-menu'>
 ```
 
 ##  Output:
@@ -53,3 +53,10 @@
     ]
 }
 ```
+## Open questions:
+1.How does application team know what are all icons already exist in the page so that they could load only if its not there?. suggestion?. - `ebay-icon` should be able to bundle only if its not availble as part of whole bundle of resources?
+2.How can individual skin icons be accessed?
+
+
+
+
